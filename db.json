@@ -1,29 +1,28 @@
 {
   "brands": [
-  { 
-    "id": 123;
-    "translations": [{
-      "cs_CZ": {
-        "title": "Brand 123"
-      },
-      {
-      "ro_RO":  {
-        "title": "Brandor 123"
+    {
+      "id": 12,
+      "translations": {
+        "cs_CZ": {
+          "title": "Brand 123"
+        },
+        "ro_RO": {
+          "title": "Brandor 123"
+        }
       }
-    ]
-  },
-  { 
-    "id": 345;
-    "translations": [{
-      "cs_CZ": {
-        "title": "Brand 345"
-      },
-      {
-      "ro_RO":  {
-        "title": "Brandor 345"
+    },
+    {
+      "id": 345,
+      "translations": {
+        "cs_CZ": {
+          "title": "Brand 345"
+        },
+        "ro_RO": {
+          "title": "Brandor 345"
+        }
       }
-    ]
-  }],
+    }
+  ],
   "categories": [
     {
       "id": 123,
@@ -51,6 +50,14 @@
     }
   ],
   "users": [
-    { "id": 1, "name": "admin", "password": "admin", "email": "admin@", "roles": ["admin"] }
+    {
+      "id": 1,
+      "name": "admin",
+      "password": "admin",
+      "email": "admin@",
+      "roles": [
+        "admin"
+      ]
+    }
   ]
 }
